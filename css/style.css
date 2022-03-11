@@ -1,0 +1,535 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Raleway;
+}
+a, a:hover{
+  text-decoration: none;
+}
+/***********************************************************************************************************************************header section starts here***********************************/
+.header{
+  width: 100%;
+}
+.header .bg-light{
+  background: black !important;
+}
+.header .navbar-light .navbar-nav .nav-link {
+  color: #ffff;
+  text-transform: capitalize;
+  margin-left: 30px;
+  font-size: 18px;
+  transition: 1s;
+}
+.header .navbar-light .navbar-nav .nav-link:hover{
+  color: #ff9b51;
+}
+/*banner starts here*/
+.header .banner{
+  width: 100%;
+  padding: 120px 0px;
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner .ban-text {
+  width: 100%;
+}
+.ban-text .axl{
+  margin-bottom: 20px;
+}
+.ban-text h1{
+  color: #ffff;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.ban-text p{
+  color: #d9d6d4;
+  margin: 30px 0px;
+}
+.ban-text .btn{
+  padding: 8px 30px;
+  color: #ffff;
+  text-transform: capitalize;
+  border: 2px solid #ffff;
+  transition: 1s;
+}
+.ban-text .btn:hover{
+  background: #ff9b51;
+  border: 2px solid #ff9b51;
+  color: #ffff;
+}
+/*banner ends here*/
+
+/*trial form starts here*/
+ .first-form{
+   width: 70%;
+   margin: 0 auto;
+   margin-top: 60px;
+   text-align: center;
+   border: 1px solid #eeee;
+   background: #ffff;
+ }
+ .first-form h5{
+   padding-bottom: 5px;
+   text-transform: capitalize;
+   background: #f5f5f5;
+   font-weight: 600;
+ }
+ .first-form span{
+   color: #ff9b51;
+ }
+ .first-form form{
+   width: 80%;
+   margin: 0 auto;
+   padding-top: 20px;
+ }
+ .first-form .form-control{
+   border: none;
+   border-bottom: 2px solid #eee;
+   margin-bottom: 20px;
+ }
+ .first-form .form-control:focus {
+  box-shadow: none !important;
+  border-bottom: 2px solid #eee;
+ }
+ .first-form .btn{
+   width: 100%;
+   border-radius: 0px;
+   background: #ff9b51;
+   text-transform: capitalize;
+   color: #ffff;
+ }
+/*trial form ends here*/
+/***********************************************************************************************************************************header section ends here***********************************/
+
+/***********************************************************************************************************************************media section starts here***********************************/
+.media{
+  width: 100%;
+  padding: 40px 0px;
+}
+.media .media-text h4{
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.media .media-text p{
+  color: #a4a5a8;
+}
+.media .media-icons{
+  width: 100%;
+  text-align: center;
+}
+.media-icons ul {
+  padding: 0px;
+  margin-top: 20px;
+}
+.media-icons ul li{
+  display: inline;
+  list-style: none;
+}
+.media-icons ul li a .fa{
+  font-size: 45px;
+  margin-left: 70px;
+  color: #cccccc;
+  transition: 1s;
+}
+.media-icons ul li a .fa:hover{
+  color: #ff9b51;
+}
+/***********************************************************************************************************************************media section ends here***********************************/
+
+/***********************************************************************************************************************************tabs section starts here***********************************/
+.tabs{
+  width: 100%;
+  padding: 80px 0px;
+  background: #f5f5f5;
+}
+.tabs .d-flex .tab-pane p{
+  margin: 30px 0px;
+  color: #a2a3a6;
+}
+.tabs .d-flex .tab-pane .btn{
+  padding: 8px 20px;
+  text-transform: uppercase;
+  color: #ffff;
+  background: #ff9b51;
+  transition: 1s;
+}
+.tabs .d-flex .tab-pane .btn:hover{
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+}
+.tabs .d-flex .tab-pane .palace{
+  text-align: center;
+}
+.tabs .nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  padding: 37px 30px;
+  background: #333333;
+  border-radius: 0px;
+  text-transform: uppercase;
+  color: #ffff;
+}
+.tabs .nav-pills .nav-link.active{
+    color: #fff;
+    background-color: #ff9b51 !important;
+}
+/***********************************************************************************************************************************tabs section ends here***********************************/
+
+/***********************************************************************************************************************************sub list section starts here***********************************/
+.sub{
+  width: 100%;
+  padding: 80px 0px;
+}
+.sub .title h5{
+  text-transform: capitalize;
+}
+.sub .subp{
+  color: #86878b;
+  margin: 15px 0px;
+}
+.sub ul{
+  padding: 0px;
+  margin-top: 30px;
+  color: #86878b;
+}
+.sub ul li{
+  display: inline;
+ list-style-type: none;
+}
+.sub ul li .fa{
+  color: #ff9b51;
+  padding: 8px;
+  border: 1px solid #ff9b51;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.sub ul li .sp1{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/***********************************************************************************************************************************sub list section ends here***********************************/
+
+/***********************************************************************************************************************************picture section starts here***********************************/
+.picture{
+  width: 100%;
+  padding: 80px 0px;
+  background: #f5f5f5;
+}
+.picture .title{
+  margin-bottom: 20px;
+}
+.picture .title h5{
+  text-transform: capitalize;
+}
+.picture p{
+  color: #86878b;
+}
+/***********************************************************************************************************************************picture section ends here***********************************/
+
+/***********************************************************************************************************************************awesome section starts here***********************************/
+.awesome{
+  width: 100%;
+  padding: 80px 0px;
+}
+.awesome .title{
+  text-align: center;
+  padding-bottom: 40px;
+}
+.awesome .title h5{
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.awesome .title .tit{
+  color: #86878b;
+  margin-top: 20px;
+}
+.awesome .inner-content{
+  width: 100%;
+  text-align: center;
+}
+.inner-content .fa{
+  font-size: 40px;
+  padding: 20px 30px;
+  color: #ff9b51;
+  border: 1px solid #ff9b51;
+  border-radius: 100%;
+}
+.inner-content h4{
+  text-transform: capitalize;
+  margin: 30px 0px;
+  font-weight: 700;
+}
+.inner-content p{
+  color: #86878b;
+}
+.inner-content .fa-keyboard-o{
+  padding: 20px 20px;
+}
+/***********************************************************************************************************************************awesome section ends here***********************************/
+
+/***********************************************************************************************************************************pricing section starts here***********************************/
+ .pricing{
+   width: 100%;
+   padding: 80px 0px;
+   background: #f5f5f5;
+ }
+ .pricing .title{
+   text-align: center;
+   padding-bottom: 40px;
+ }
+ .pricing .title h5{
+   font-size: 35px;
+   text-transform: uppercase;
+   font-weight: 400;
+ }
+ .pricing .title .tit{
+   color: #86878b;
+   margin-top: 20px;
+ }
+ .inner-pricing{
+   text-align: center;
+   width: 90%;
+ }
+ .card{
+   transition: 1s;
+ }
+ .inner-pricing .card ul .basic{
+   background: #333333;
+   color: #ffff;
+   border-bottom: 1px solid #ffff;
+ }
+
+ .inner-pricing .card ul .basic h5{
+   text-transform: uppercase;
+ }
+ .inner-pricing .card ul .base{
+   background: #333333;
+   color: #ffff;
+   border-bottom: 1px solid #ffff;
+   position: relative;
+ }
+ .inner-pricing .card .base h1{
+   font-size: 60px;
+ }
+ .inner-pricing .card .base h1 sub{
+   font-size: 20px;
+   top: -5px;
+ }
+ .inner-pricing .card .base .free{
+   color: #86878b;
+   margin-top: 20px;
+   text-transform: capitalize;
+   font-size: 16px;
+ }
+ .inner-pricing .card ul .payment{
+   background: #333333;
+   color: #ffff;
+   border-bottom: 1px solid #ffff;
+   display: none;
+   transition: 1s;
+ }
+ .inner-pricing .card ul .popular{
+   background: #333333;
+   color: #ffff;
+   border-bottom: 1px solid #ffff;
+   display: none;
+   transition: 1s;
+ }
+ .inner-pricing:hover .card ul .popular{
+   display: block;
+ }
+ .inner-pricing:hover .card ul .payment{
+   display: block;
+ }
+ .card ul .popular:hover{
+   background: #ff9b51;
+ }
+ .card ul .payment:hover{
+   background: #ff9b51;
+ }
+ .inner-pricing .card ul li{
+   text-transform: uppercase;
+   transition: 1s;
+ }
+ .inner-pricing .card ul li:hover{
+   background: #ff9b51;
+   color: #ffff;
+ }
+/***********************************************************************************************************************************pricing section ends here***********************************/
+
+/***********************************************************************************************************************************customer section starts here***********************************/
+ .customer{
+   width: 100%;
+   padding: 80px 0px;
+ }
+ .customer .title{
+   text-align: center;
+   padding-bottom: 40px;
+ }
+ .customer .title h5{
+   font-size: 35px;
+   text-transform: uppercase;
+   font-weight: 400;
+ }
+ .customer .title .tit{
+   color: #86878b;
+   margin-top: 20px;
+ }
+ .customer .owl-carousel img{
+   width: 70px !important;
+   height: 70px;
+   margin-left: -20px;
+ }
+ .owl-carousel h5{
+   margin-left: -100px;
+   text-transform: capitalize;
+ }
+ .owl-carousel .post{
+   margin-left: -100px;
+   text-transform: capitalize;
+ }
+ .owl-carousel p{
+   color: #a2a3a6;
+ }
+ .owl-theme .owl-dots .owl-dot{
+   margin-top: 50px;
+ }
+ .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff9b51 !important;
+}
+ /***********************************************************************************************************************************customer section ends here***********************************/
+
+/***********************************************************************************************************************************style section starts here***********************************/
+ .style{
+   width: 100%;
+   padding: 80px 20px;
+   background-image: url("../images/style.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+ .style .title{
+   text-align: center;
+ }
+ .style .title h5{
+   font-size: 40px;
+   color: #ffff;
+ }
+ .style .title p{
+   margin: 30px 0px;
+   color: #ffff;
+ }
+ .style .title .btn{
+   margin-top: 50px;
+   padding: 8px 25px;
+   background: transparent;
+   color: #ffff;
+   border: 1px solid #ffff;
+   text-transform: uppercase;
+   transition: 1s;
+ }
+ .style .title .btn:hover{
+   background: #ff9b51;
+   border: 1px solid #ff9b51;
+ }
+/***********************************************************************************************************************************style section ends here***********************************/
+
+/***********************************************************************************************************************************contact section starts here***********************************/
+ .contact{
+   width: 100%;
+   padding: 80px 0px;
+ }
+
+ .contact .title{
+   text-align: center;
+   padding-bottom: 40px;
+ }
+ .contact .title h5{
+   font-size: 35px;
+   text-transform: uppercase;
+   font-weight: 400;
+ }
+ .contact .title .tit{
+   color: #86878b;
+   margin-top: 20px;
+ }
+ .contact .main-form{
+   width: 100%;
+   margin: 0px auto;
+ }
+ .contact .main-form .form-control{
+   border: none;
+   border-bottom: 3px solid #eeee;
+   margin-bottom: 23px;
+ }
+  .contact .main-form .form-control:focus{
+    box-shadow: none;
+    border: none;
+    border-bottom: 3px solid #eeee;
+  }
+  .main-form textarea .form-control{
+    border: none;
+    border-bottom: 23px solid #eeee;
+  }
+  .contact .main-form textarea .form-control:focus{
+    border: none !important;
+    border-bottom: 3px solid #eeee;
+    box-shadow: none !important;
+  }
+  .last-button{
+    width: 100%;
+    text-align: center;
+  }
+  .last-button .btn{
+    padding: 8px 25px;
+    text-transform: capitalize;
+    background: #ff9b51;
+    color: #ffff;
+    transition: 1s;
+    margin-top: 30px;
+  }
+  .last-button .btn:hover{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+  }
+/***********************************************************************************************************************************contact section ends here***********************************/
+
+/***********************************************************************************************************************************footer section starts here***********************************/
+.footer{
+  width: 100%;
+  padding: 40px 0px;
+  background: black;
+}
+.footer-icons{
+  width: 100%;
+  text-align: center;
+
+}
+.footer-icons ul li{
+  display: inline;
+  list-style-type: none;
+}
+.footer-icons ul li .fa{
+  font-size: 30px;
+  margin-left: 20px;
+  color: #ffff;
+  transition: 1s;
+}
+.footer-icons ul li .fa:hover{
+  color: #ff9b51;
+}
+.footer-icons p{
+  color: #808080;
+}
+/***********************************************************************************************************************************footer section ends here***********************************/

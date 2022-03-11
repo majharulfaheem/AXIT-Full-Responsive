@@ -1,0 +1,507 @@
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px){
+  .navbar-light .navbar-toggler-icon {
+  color: #ffff;
+  margin-top: 10px;
+}
+.header .banner{
+  padding: 50px 0px;
+}
+.ban-text h1 {
+  color: #ffff;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 32px;
+}
+.ban-text p{
+  font-size: 17px;
+  line-height: 27px;
+}
+.ban-text .btn {
+  padding: 5px 20px;
+}
+.first-form{
+  width: 95%;
+}
+.media {
+  width: 100%;
+  padding: 20px 0px;
+}
+.media .media-text h4 {
+  font-size: 20px;
+}
+.media .media-text p {
+  font-size: 12px;
+}
+.media-icons ul li a .fa {
+  font-size: 30px;
+  margin-left: 5px;
+}
+.tabs .d-flex .tab-pane p {
+  font-size: 12px;
+}
+.tabs .d-flex h4{
+  font-size: 20px;
+}
+.tabs .d-flex .tab-pane .btn {
+  padding: 5px 10px;
+  margin-bottom: 50px;
+}
+.sub {
+  width: 100%;
+  padding: 40px 0px;
+}
+.sub .subp {
+  font-size: 15px;
+}
+.picture {
+  width: 100%;
+  padding: 40px 0px;
+}
+.picture p {
+  color: #86878b;
+  font-size: 14px;
+}
+.awesome{
+  padding: 40px 0px 0px 0px;;
+}
+.awesome .title h5 {
+  font-size: 25px;
+}
+.awesome .title .tit{
+  font-size: 14px;
+}
+.inner-content h4 {
+  margin: 20px 0px;
+  font-size: 20px;
+}
+.inner-content p {
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+.pricing{
+  width: 100%;
+  padding: 40px 0px;
+}
+.pricing .title h5{
+  font-size: 25px;
+}
+.pricing .title .tit{
+  font-size: 14px;
+}
+.inner-pricing{
+  width: 98%;
+  margin-bottom: 20px;
+}
+.customer{
+  padding: 40px 0px;
+}
+.customer .title h5{
+  font-size: 25px;
+}
+.customer .title .tit{
+  font-size: 14px;
+}
+.customer .owl-carousel img {
+  margin-left: 7px;
+}
+.owl-carousel h5 {
+  margin-left: -232px;
+  margin-top: -91px!important;
+}
+.owl-carousel .post{
+  margin-left: 74px !important;
+}
+.style{
+  padding: 40px 0px;
+}
+.style .title h5{
+  font-size: 25px;
+}
+.style .title .tit{
+  font-size: 14px;
+}
+.style .title p{
+  margin: 10px 0px;
+}
+.style .title .btn {
+  margin-top: 30px;
+  padding: 5px 15px;
+}
+.contact{
+  padding: 40px 0px;
+}
+.contact .title h5{
+  font-size: 25px;
+}
+.contact .title .tit{
+  font-size: 14px;
+}
+.footer{
+  padding: 20px 0px;
+}
+.footer-icons ul{
+  padding-left: 0rem;
+}
+.footer-icons ul li .fa {
+  font-size: 20px;
+  margin-left: 8px;
+}
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-light .navbar-toggler-icon {
+  color: #ffff;
+  margin-top: 10px;
+}
+.header .banner {
+  width: 100%;
+  padding: 50px 0px;
+}
+.first-form{
+  width: 98%;
+}
+.media {
+  width: 100%;
+  padding: 20px 0px;
+}
+.media-icons ul li a .fa {
+  font-size: 40px;
+  margin-left: 20px;
+}
+.media-icons ul {
+  padding: 0px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.media .media-text p {
+  color: #a4a5a8;
+  font-size: 18px;
+}
+.media .media-text h4{
+  font-size: 25px;
+}
+.tabs {
+  width: 100%;
+  padding: 50px 0px;
+}
+.sub {
+  width: 100%;
+  padding: 40px 0 px;
+}
+.sub .title h5{
+  font-size: 28px;
+}
+.picture {
+  width: 100%;
+  padding: 40px 0px;
+}
+.picture .title h5{
+  font-size: 25px;
+}
+.picture p{
+  font-size: 14px;
+}
+.awesome{
+  padding: 40px 0px;
+}
+.awesome .inner-content{
+  margin-bottom: 35px !important;
+}
+.pricing{
+  padding: 40px 0px;
+}
+.inner-pricing{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.customer{
+  padding: 40px 0px;
+}
+.customer .title h5{
+  font-size: 27px;
+}
+.owl-carousel p {
+  color: #a2a3a6;
+  font-size: 22px;
+  margin-left: 50px;
+}
+.customer .owl-carousel img{
+  margin-left: 49px;
+}
+.owl-carousel h5 {
+  margin-top: -90px !important;
+  margin-left: -355px;
+}
+.owl-carousel .post{
+  margin-left: -355px;
+}
+.style .title h5{
+  font-size: 34px;
+}
+.contact{
+  padding: 40px 0px;
+}
+.footer .footer-icons ul{
+  margin-right: 40px;
+}
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-light .navbar-toggler-icon {
+  color: #ffff;
+  margin-top: 10px;
+}
+.header .banner{
+  padding: 55px 0px;
+}
+.ban-text h1{
+  font-size: 45px;
+  line-height: 60px;
+}
+.ban-text p {
+  font-size: 24px;
+  line-height: 30px;
+}
+.ban-text .btn {
+  font-size: 18px;
+  padding: 12px 40px;
+}
+.first-form{
+  width: 98%;
+}
+.first-form h5{
+  font-size: 35px;
+}
+.first-form .btn{
+  font-size: 27px;
+}
+.media .media-text h4{
+  font-size: 45px;
+}
+.media .media-text p {
+  font-size: 24px;
+}
+.media-icons ul{
+  margin-right: 50px;
+}
+.media-icons ul li a .fa{
+  margin-left: 47px;
+}
+.tabs .d-flex .tab-pane p{
+  font-size: 24px;
+  line-height: 34px;
+}
+.tabs .d-flex h4{
+  font-size: 37px;
+}
+.tabs .d-flex .tab-pane .btn{
+  font-size: 22px;
+}
+.tabs .d-flex .img-fluid{
+  margin-top: 75px;
+}
+.sub .sub-img{
+  text-align: center;
+}
+.sub .title h5{
+  font-size: 45px;
+}
+.sub .subp{
+  font-size: 24px;
+  line-height: 34px;
+}
+.sub ul li .sp1 {
+  font-size: 30px;
+}
+.sub ul li .sp2 {
+ font-size: 24px;
+ line-height: 34px;
+}
+.picture .title h5{
+  font-size: 45px;
+}
+.picture p{
+  font-size: 24px;
+  line-height: 34px;
+}
+.picture .pic-img{
+  text-align: center;
+}
+.awesome .title h5{
+  font-size: 45px;
+}
+.awesome .title .tit{
+  font-size: 24px;
+}
+.inner-content .fa{
+  font-size: 50px;
+}
+.inner-content h4 {
+  font-size: 30px;
+}
+.inner-content p{
+  font-size: 20px;
+}
+.inner-content{
+  margin-bottom: 40px;
+}
+.pricing .title h5{
+  font-size: 45px;
+}
+.pricing .title .tit{
+  font-size: 24px;
+}
+.inner-pricing{
+  width: 98%;
+}
+.inner-pricing .card ul .basic h5{
+  font-size: 25px;
+}
+.inner-pricing .card .base h1{
+  font-size: 80px;
+}
+.inner-pricing .card .base h1 .sub{
+  font-size: 30px;
+}
+.inner-pricing .card .base .free{
+  font-size: 24px;
+}
+.inner-pricing .card ul li{
+  font-size: 18px;
+}
+.customer .title h5{
+  font-size: 41px;
+}
+.customer .title .tit{
+  font-size: 24px;
+}
+.owl-carousel p {
+  font-size: 30px;
+  margin-left: 87px;
+}
+.customer .owl-carousel img {
+  width: 90px !important;
+  height: 90px;
+  margin-left: 64px;
+}
+.customer .owl-carousel img {
+  width: 90px !important;
+  height: 90px;
+  margin-left: 64px;
+}
+.owl-carousel .post{
+  margin-left: -132px;
+}
+.owl-carousel h5 {
+  margin-left: -132px;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.style .title h5{
+  font-size: 45px;
+}
+.style .title p{
+  font-size: 24px;
+}
+.contact .title h5{
+  font-size: 45px;
+}
+.contact .title .tit{
+  font-size: 24px;
+}
+.last-button .btn{
+  font-size: 22px;
+}
+.footer .footer-icons ul{
+  margin-right: 30px;
+}
+.footer-icons p{
+  font-size: 18px;
+}
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+.header .banner{
+  padding: 70px 0px;
+}
+.ban-text h1{
+  font-size: 30px;
+  line-height: 40px;
+}
+.ban-text p{
+  font-size: 16px;
+  line-height: 26px;
+}
+.media{
+  padding: 20px 0px;
+}
+.media-icons ul li a .fa {
+  font-size: 35px;
+  margin-left: 50px;
+  color: #cccccc;
+  transition: 1s;
+}
+.media .media-text p{
+  font-size: 12px;
+}
+.tabs {
+  width: 100%;
+  padding: 50px 0px;
+ background: #f5f5f5;
+}
+.sub {
+  width: 100%;
+  padding: 50px 0px;
+}
+.picture {
+  width: 100%;
+  padding: 50px 0px;
+}
+.picture p{
+  font-size: 14px;
+}
+.awesome{
+  padding: 50px 0px;
+}
+.inner-content p{
+  font-size: 12px;
+}
+.pricing{
+  padding: 50px 0px;
+}
+.customer{
+  padding: 50px 0px;
+}
+.owl-carousel h5{
+  margin-left: -59px;
+}
+.owl-carousel .post{
+  margin-left: -59px;
+}
+.contact{
+  padding: 50px 0px;
+}
+.footer{
+ padding: 20px 0px;
+}
+}
